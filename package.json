@@ -1,0 +1,17 @@
+{
+  "name": "web-api-aula29",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon --watch src/ --exec ts-node src/app.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
